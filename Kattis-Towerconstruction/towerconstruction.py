@@ -1,6 +1,6 @@
-n = int(input())
-x = list(int(x) for x in input().split())
-s = 1
-for i in range(1, n):
-    if x[i] > x[i-1]: s += 1
-print(s)
+amount = int(input())
+parts = list(int(parts) for parts in input().split())
+towers = 1
+for i in range(1, amount):
+    if parts[i] > parts[i-1]: towers += 1
+print(towers)
